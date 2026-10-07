@@ -205,47 +205,58 @@
   </svg>
 
   <div class="container hero__inner">
-    <p class="eyebrow eyebrow--light" data-hero><svg class="i"><use href="#i-sparkles"/></svg> Premium Home Cleaning &middot; South Shore &amp; Cape Cod</p>
-    <h1 class="hero__title">
-      <span class="line"><span data-hero>The art of a</span></span>
-      <span class="line"><span data-hero><em class="shimmer">spotless home,</em></span></span>
-      <span class="line"><span data-hero>made 4You.</span></span>
-    </h1>
-    <p class="hero__lead" data-hero>
-      Meticulous residential, commercial and vacation rental cleaning for the homes and businesses of Massachusetts' South Shore and Cape Cod. You enjoy the calm. We handle every detail.
-    </p>
+    <div class="hero__copy">
+      <p class="eyebrow eyebrow--light" data-hero><svg class="i"><use href="#i-sparkles"/></svg> South Shore &amp; Cape Cod, MA</p>
+      <h1 class="hero__title">
+        <span class="line"><span data-hero>The art of a</span></span>
+        <span class="line"><span data-hero><em class="shimmer">spotless home,</em></span></span>
+        <span class="line"><span data-hero>made 4You.</span></span>
+      </h1>
+      <p class="hero__lead" data-hero>Premium home, office &amp; rental cleaning. You relax, we handle every detail.</p>
 
-    <!-- Quick start bar -->
-    <form class="quick" id="quick" data-hero>
-      <label class="quick__field">
-        <span class="quick__label"><svg class="i"><use href="#i-sparkles"/></svg> Service</span>
-        <select name="service" aria-label="Choose a service">
-          <option value="regular">Regular Cleaning</option>
-          <option value="deep">Deep Cleaning</option>
-          <option value="move">Move In / Move Out</option>
-          <option value="construction">Post Construction</option>
-          <option value="commercial">Commercial / Office</option>
-          <option value="airbnb">Airbnb &amp; Vacation Rental</option>
-        </select>
-      </label>
-      <label class="quick__field">
-        <span class="quick__label"><svg class="i"><use href="#i-bed"/></svg> Bedrooms</span>
-        <select name="bedrooms" aria-label="Bedrooms">
-          <option value="1">1 bedroom</option>
-          <option value="2">2 bedrooms</option>
-          <option value="3" selected>3 bedrooms</option>
-          <option value="4">4 bedrooms</option>
-          <option value="5">5+ bedrooms</option>
-        </select>
-      </label>
-      <button type="submit" class="btn btn--violet magnetic"><span>Get my estimate</span><svg class="i"><use href="#i-arrow"/></svg></button>
-    </form>
+      <!-- Quick start bar -->
+      <form class="quick" id="quick" data-hero>
+        <label class="quick__field">
+          <span class="quick__label"><svg class="i"><use href="#i-sparkles"/></svg> Service</span>
+          <select name="service" aria-label="Choose a service">
+            <option value="regular">Regular Cleaning</option>
+            <option value="deep">Deep Cleaning</option>
+            <option value="move">Move In / Move Out</option>
+            <option value="construction">Post Construction</option>
+            <option value="commercial">Commercial / Office</option>
+            <option value="airbnb">Airbnb &amp; Rental</option>
+          </select>
+        </label>
+        <label class="quick__field">
+          <span class="quick__label"><svg class="i"><use href="#i-bed"/></svg> Bedrooms</span>
+          <select name="bedrooms" aria-label="Bedrooms">
+            <option value="1">1 bedroom</option>
+            <option value="2">2 bedrooms</option>
+            <option value="3" selected>3 bedrooms</option>
+            <option value="4">4 bedrooms</option>
+            <option value="5">5+ bedrooms</option>
+          </select>
+        </label>
+        <button type="submit" class="btn btn--violet magnetic" aria-label="Get my estimate"><span>Get price</span><svg class="i"><use href="#i-arrow"/></svg></button>
+      </form>
 
-    <ul class="hero__trust" data-hero>
-      <li><svg class="i"><use href="#i-badge"/></svg> Spotless Promise</li>
-      <li><svg class="i"><use href="#i-calendar"/></svg> Mon – Sat, 7 AM – 7 PM</li>
-      <li><svg class="i"><use href="#i-clock"/></svg> Estimate in under 60 seconds</li>
-    </ul>
+      <ul class="hero__trust" data-hero>
+        <li><span><svg class="i"><use href="#i-badge"/></svg></span> Spotless Promise</li>
+        <li><span><svg class="i"><use href="#i-calendar"/></svg></span> Mon – Sat</li>
+        <li><span><svg class="i"><use href="#i-clock"/></svg></span> 60-sec quote</li>
+      </ul>
+    </div>
+
+    <div class="hero__visual" data-hero>
+      <div class="hero__photo">
+        <img src="assets/img/hero-team.webp" srcset="assets/img/hero-team-sm.webp 760w, assets/img/hero-team.webp 1400w" sizes="(max-width: 960px) 90vw, 560px" alt="Smiling 4You cleaning professional holding a caddy of cleaning supplies in a bright living room" width="1400" height="788" fetchpriority="high">
+      </div>
+      <div class="float float--a"><span class="float__icon"><svg class="i"><use href="#i-badge"/></svg></span><div><strong>Spotless Promise</strong><small>Re-clean free in 24h</small></div></div>
+      <div class="float float--b"><span class="float__icon float__icon--dark"><svg class="i"><use href="#i-clock"/></svg></span><div><strong>7 AM – 7 PM</strong><small>Monday to Saturday</small></div></div>
+      <div class="float float--c"><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><span>Made 4You</span></div>
+      <svg class="i hero__spark hero__spark--1" aria-hidden="true"><use href="#i-star"/></svg>
+      <svg class="i hero__spark hero__spark--2" aria-hidden="true"><use href="#i-star"/></svg>
+    </div>
   </div>
 
   <a href="#services" class="hero__scroll" aria-label="Scroll to services"><span></span></a>
@@ -268,71 +279,77 @@
   </div>
 </div>
 
+<!-- ============ PERKS ============ -->
+<section class="perks">
+  <div class="container perks__grid">
+    <div class="perk" data-reveal><span class="perk__icon"><svg class="i"><use href="#i-users"/></svg></span><div><strong>Uniformed team</strong><small>Friendly &amp; careful</small></div></div>
+    <div class="perk" data-reveal style="--d:.08s"><span class="perk__icon"><svg class="i"><use href="#i-check"/></svg></span><div><strong>Room checklist</strong><small>Nothing left to luck</small></div></div>
+    <div class="perk" data-reveal style="--d:.16s"><span class="perk__icon"><svg class="i"><use href="#i-calendar"/></svg></span><div><strong>Flexible days</strong><small>Mon – Sat, 7 – 7</small></div></div>
+    <div class="perk" data-reveal style="--d:.24s"><span class="perk__icon"><svg class="i"><use href="#i-badge"/></svg></span><div><strong>Spotless Promise</strong><small>Or we come back</small></div></div>
+  </div>
+</section>
+
 <!-- ============ SERVICES ============ -->
 <section class="section services" id="services">
   <div class="container">
     <header class="section-head" data-reveal>
       <p class="eyebrow"><svg class="i"><use href="#i-gem"/></svg> Our services</p>
-      <h2 class="section-title">Six ways to <em>fall in love</em> with your space again</h2>
-      <p class="section-lead">Every visit is tailored to the space in front of us. Choose a service below to start your instant estimate.</p>
+      <h2 class="section-title">Six ways to <em>fall in love</em> with your space</h2>
     </header>
 
     <div class="svc-grid">
-      <article class="svc svc--feature spot" data-reveal>
-        <span class="svc__num">01</span>
-        <div class="svc__icon"><svg class="i"><use href="#i-home"/></svg></div>
-        <h3>Regular Cleaning</h3>
-        <p>Your home, consistently beautiful. Weekly, bi-weekly or monthly visits that keep every room fresh, so you come home to calm instead of chores.</p>
-        <ul class="svc__list">
-          <li><svg class="i"><use href="#i-check"/></svg> Kitchens &amp; bathrooms</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Dusting &amp; surfaces</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Floors vacuumed &amp; mopped</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Beds made, trash out</li>
-        </ul>
-        <a href="#quote" class="svc__link" data-service="regular">Estimate regular cleaning <svg class="i"><use href="#i-arrow"/></svg></a>
-      </article>
-
-      <article class="svc spot" data-reveal style="--d:.06s">
-        <span class="svc__num">02</span>
-        <div class="svc__icon"><svg class="i"><use href="#i-spray"/></svg></div>
-        <h3>Deep Cleaning</h3>
-        <p>A full reset. Baseboards, grout, vents, door frames and every corner a routine clean leaves behind.</p>
-        <a href="#quote" class="svc__link" data-service="deep">Estimate deep cleaning <svg class="i"><use href="#i-arrow"/></svg></a>
-      </article>
-
-      <article class="svc spot" data-reveal style="--d:.12s">
-        <span class="svc__num">03</span>
-        <div class="svc__icon"><svg class="i"><use href="#i-box"/></svg></div>
-        <h3>Move In / Move Out</h3>
-        <p>Empty-home cleaning, inside cabinets and appliances, so keys are handed over with confidence.</p>
-        <a href="#quote" class="svc__link" data-service="move">Estimate move cleaning <svg class="i"><use href="#i-arrow"/></svg></a>
-      </article>
-
-      <article class="svc spot" data-reveal>
-        <span class="svc__num">04</span>
-        <div class="svc__icon"><svg class="i"><use href="#i-hardhat"/></svg></div>
-        <h3>Post Construction</h3>
-        <p>Fine dust, paint specks and debris removed after renovations, leaving your new space truly move-in ready.</p>
-        <a href="#quote" class="svc__link" data-service="construction">Estimate post construction <svg class="i"><use href="#i-arrow"/></svg></a>
-      </article>
-
-      <article class="svc spot" data-reveal style="--d:.06s">
-        <span class="svc__num">05</span>
-        <div class="svc__icon"><svg class="i"><use href="#i-building"/></svg></div>
-        <h3>Commercial / Office</h3>
-        <p>Polished offices, studios and storefronts that make the right first impression, on a schedule that suits you.</p>
-        <a href="#quote" class="svc__link" data-service="commercial">Estimate office cleaning <svg class="i"><use href="#i-arrow"/></svg></a>
-      </article>
-
-      <article class="svc svc--wide spot" data-reveal style="--d:.12s">
-        <span class="svc__num">06</span>
-        <div class="svc__icon"><svg class="i"><use href="#i-key"/></svg></div>
-        <div class="svc__body">
-          <h3>Airbnb &amp; Vacation Rental</h3>
-          <p>Cape Cod and South Shore rentals turned over between guests: fresh linens made, kitchens reset, bathrooms sparkling and the little details that earn five-star reviews.</p>
+      <a href="#quote" class="pcard pcard--wide" data-service="regular" data-reveal>
+        <img src="assets/img/svc-living-sm.webp" srcset="assets/img/svc-living-sm.webp 760w, assets/img/svc-living.webp 1400w" sizes="(max-width: 680px) 92vw, 760px" alt="4You cleaner vacuuming a rug in a bright living room" loading="lazy" width="1400" height="788">
+        <span class="pcard__icon"><svg class="i"><use href="#i-home"/></svg></span>
+        <span class="pcard__badge">Most popular</span>
+        <div class="pcard__body">
+          <h3>Regular Cleaning</h3>
+          <ul class="tags"><li><svg class="i"><use href="#i-calendar"/></svg> Weekly</li><li><svg class="i"><use href="#i-sparkles"/></svg> Bi-weekly</li><li><svg class="i"><use href="#i-clock"/></svg> Monthly</li></ul>
         </div>
-        <a href="#quote" class="svc__link" data-service="airbnb">Estimate rental turnover <svg class="i"><use href="#i-arrow"/></svg></a>
-      </article>
+        <span class="pcard__go"><svg class="i"><use href="#i-arrow"/></svg></span>
+      </a>
+
+      <a href="#quote" class="pcard" data-service="deep" data-reveal style="--d:.08s">
+        <img src="assets/img/svc-bathroom-sm.webp" alt="4You cleaner polishing a bathroom mirror" loading="lazy" width="760" height="428">
+        <span class="pcard__icon"><svg class="i"><use href="#i-spray"/></svg></span>
+        <div class="pcard__body">
+          <h3>Deep Cleaning</h3>
+          <ul class="tags"><li><svg class="i"><use href="#i-bath"/></svg> Grout</li><li><svg class="i"><use href="#i-sparkles"/></svg> Baseboards</li></ul>
+        </div>
+        <span class="pcard__go"><svg class="i"><use href="#i-arrow"/></svg></span>
+      </a>
+
+      <a href="#quote" class="icard" data-service="move" data-reveal>
+        <span class="icard__icon"><svg class="i"><use href="#i-box"/></svg></span>
+        <h3>Move In / Out</h3>
+        <p>Empty-home clean, inside cabinets &amp; appliances.</p>
+        <span class="icard__go">Get price <svg class="i"><use href="#i-arrow"/></svg></span>
+      </a>
+
+      <a href="#quote" class="icard" data-service="construction" data-reveal style="--d:.08s">
+        <span class="icard__icon"><svg class="i"><use href="#i-hardhat"/></svg></span>
+        <h3>Post Construction</h3>
+        <p>Fine dust &amp; debris gone after renovations.</p>
+        <span class="icard__go">Get price <svg class="i"><use href="#i-arrow"/></svg></span>
+      </a>
+
+      <a href="#quote" class="icard" data-service="commercial" data-reveal style="--d:.16s">
+        <span class="icard__icon"><svg class="i"><use href="#i-building"/></svg></span>
+        <h3>Commercial / Office</h3>
+        <p>Polished offices &amp; storefronts, your schedule.</p>
+        <span class="icard__go">Get price <svg class="i"><use href="#i-arrow"/></svg></span>
+      </a>
+
+      <a href="#quote" class="pcard pcard--banner" data-service="airbnb" data-reveal>
+        <img src="assets/img/svc-bedroom-sm.webp" srcset="assets/img/svc-bedroom-sm.webp 760w, assets/img/svc-bedroom.webp 1400w" sizes="(max-width: 680px) 92vw, 1220px" alt="4You cleaner arranging pillows on a freshly made bed" loading="lazy" width="1400" height="788">
+        <span class="pcard__icon"><svg class="i"><use href="#i-key"/></svg></span>
+        <div class="pcard__body">
+          <h3>Airbnb &amp; Vacation Rental</h3>
+          <p>Guest-ready turnovers across the Cape &amp; South Shore.</p>
+          <ul class="tags"><li><svg class="i"><use href="#i-bed"/></svg> Fresh linens</li><li><svg class="i"><use href="#i-sparkles"/></svg> Kitchen reset</li><li><svg class="i"><use href="#i-star"/></svg> 5-star ready</li></ul>
+        </div>
+        <span class="pcard__go"><svg class="i"><use href="#i-arrow"/></svg></span>
+      </a>
     </div>
   </div>
 </section>
@@ -343,48 +360,48 @@
   <div class="container standard__grid">
     <div class="standard__copy" data-reveal>
       <p class="eyebrow eyebrow--light"><svg class="i"><use href="#i-sparkles"/></svg> The 4You Standard</p>
-      <h2 class="section-title section-title--light">Detail is not an extra. <em>It's the standard.</em></h2>
-      <p>Every 4You clean follows a room-by-room checklist, so nothing depends on luck. Explore what a visit includes.</p>
+      <h2 class="section-title section-title--light">Detail is <em>the standard.</em></h2>
+      <p>A room-by-room checklist on every visit. Pick a room:</p>
       <div class="tabs" role="tablist" aria-label="Rooms">
-        <button class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-kitchen" id="tab-kitchen">Kitchen</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-bath" id="tab-bath" tabindex="-1">Bathrooms</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-living" id="tab-living" tabindex="-1">Bedrooms &amp; Living</button>
+        <button class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-kitchen" id="tab-kitchen"><svg class="i"><use href="#i-spray"/></svg> Kitchen</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-bath" id="tab-bath" tabindex="-1"><svg class="i"><use href="#i-bath"/></svg> Bath</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-living" id="tab-living" tabindex="-1"><svg class="i"><use href="#i-sofa"/></svg> Living</button>
         <span class="tabs__ink" aria-hidden="true"></span>
       </div>
     </div>
 
     <div class="standard__panels" data-reveal style="--d:.1s">
       <div class="panel is-active" role="tabpanel" id="panel-kitchen" aria-labelledby="tab-kitchen">
+        <div class="panel__img"><img src="assets/img/svc-kitchen-sm.webp" alt="Marble kitchen island being wiped to a shine" loading="lazy" width="760" height="428"></div>
         <ul class="checklist">
-          <li><svg class="i"><use href="#i-check"/></svg> Countertops &amp; backsplash wiped and sanitized</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Sink scrubbed and fixtures polished</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Appliance exteriors &amp; microwave cleaned</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Cabinet fronts &amp; handles wiped</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Counters sanitized</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Sink &amp; fixtures shined</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Appliances wiped</li>
           <li><svg class="i"><use href="#i-check"/></svg> Stovetop degreased</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Floors vacuumed &amp; mopped</li>
-          <li class="checklist__extra"><svg class="i"><use href="#i-plus"/></svg> Add-on: inside oven &amp; fridge</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Cabinet fronts</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Floors mopped</li>
         </ul>
       </div>
       <div class="panel" role="tabpanel" id="panel-bath" aria-labelledby="tab-bath" hidden>
+        <div class="panel__img"><img src="assets/img/svc-bathroom-sm.webp" alt="Bathroom mirror polished streak-free" loading="lazy" width="760" height="428"></div>
         <ul class="checklist">
-          <li><svg class="i"><use href="#i-check"/></svg> Showers, tubs &amp; tile scrubbed</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Toilets cleaned inside, outside &amp; base</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Mirrors &amp; glass streak-free</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Vanities, sinks &amp; faucets shined</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Towels folded, trash emptied</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Floors washed edge to edge</li>
-          <li class="checklist__extra"><svg class="i"><use href="#i-plus"/></svg> Deep clean: grout detailing</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Shower &amp; tub scrubbed</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Toilet inside &amp; out</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Mirrors streak-free</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Vanity &amp; faucets</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Towels folded</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Floors washed</li>
         </ul>
       </div>
       <div class="panel" role="tabpanel" id="panel-living" aria-labelledby="tab-living" hidden>
+        <div class="panel__img"><img src="assets/img/svc-living-sm.webp" alt="Living room rug being vacuumed" loading="lazy" width="760" height="428"></div>
         <ul class="checklist">
-          <li><svg class="i"><use href="#i-check"/></svg> Furniture, shelves &amp; decor dusted</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Beds made, linens changed on request</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Light switches &amp; door handles wiped</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Mirrors &amp; glass surfaces polished</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Carpets vacuumed, floors mopped</li>
-          <li><svg class="i"><use href="#i-check"/></svg> Cushions fluffed &amp; spaces tidied</li>
-          <li class="checklist__extra"><svg class="i"><use href="#i-plus"/></svg> Deep clean: baseboards &amp; vents</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Surfaces dusted</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Beds made</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Switches &amp; handles</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Glass polished</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Carpets vacuumed</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Cushions fluffed</li>
         </ul>
       </div>
     </div>
@@ -397,11 +414,11 @@
     <div class="quote__intro" data-reveal>
       <p class="eyebrow"><svg class="i"><use href="#i-sparkles"/></svg> Instant estimate</p>
       <h2 class="section-title">Your price, <em>in under a minute.</em></h2>
-      <p class="section-lead">Answer a few quick questions and see an approximate price range for your cleaning right away. No phone tag, no pressure.</p>
+      <p class="section-lead">4 quick steps. Instant price range. Zero pressure.</p>
       <ul class="quote__perks">
-        <li><span><svg class="i"><use href="#i-clock"/></svg></span><div><strong>Fast</strong>Four simple steps, done in seconds.</div></li>
-        <li><span><svg class="i"><use href="#i-gem"/></svg></span><div><strong>Transparent</strong>A real price range, before anyone visits.</div></li>
-        <li><span><svg class="i"><use href="#i-lock"/></svg></span><div><strong>No obligation</strong>Your info stays private. Never sold.</div></li>
+        <li><span><svg class="i"><use href="#i-clock"/></svg></span><div><strong>Fast</strong>Done in seconds</div></li>
+        <li><span><svg class="i"><use href="#i-gem"/></svg></span><div><strong>Transparent</strong>Real price, upfront</div></li>
+        <li><span><svg class="i"><use href="#i-lock"/></svg></span><div><strong>Private</strong>Never shared or sold</div></li>
       </ul>
       <div class="quote__call">
         <p>Prefer to talk?</p>
@@ -615,22 +632,22 @@
       <li class="pstep" data-reveal>
         <div class="pstep__num"><svg class="i"><use href="#i-message"/></svg><span>01</span></div>
         <h3>Get your estimate</h3>
-        <p>Answer a few questions online and see your price range instantly.</p>
+        <p>Instant price, online.</p>
       </li>
       <li class="pstep" data-reveal style="--d:.1s">
         <div class="pstep__num"><svg class="i"><use href="#i-calendar"/></svg><span>02</span></div>
         <h3>Pick your day</h3>
-        <p>We confirm the details and book a time that fits your week, Monday to Saturday.</p>
+        <p>Any day, Mon to Sat.</p>
       </li>
       <li class="pstep" data-reveal style="--d:.2s">
         <div class="pstep__num"><svg class="i"><use href="#i-spray"/></svg><span>03</span></div>
         <h3>We clean with care</h3>
-        <p>Our team arrives on time and works through every room on the 4You checklist.</p>
+        <p>Room by room, on checklist.</p>
       </li>
       <li class="pstep" data-reveal style="--d:.3s">
         <div class="pstep__num"><svg class="i"><use href="#i-sofa"/></svg><span>04</span></div>
         <h3>Relax &amp; enjoy</h3>
-        <p>Walk into a fresh, spotless space and enjoy the time you just got back.</p>
+        <p>Enjoy your time back.</p>
       </li>
     </ol>
   </div>
@@ -656,9 +673,14 @@
 
     <div class="about__copy" data-reveal style="--d:.1s">
       <p class="eyebrow"><svg class="i"><use href="#i-users"/></svg> About 4You</p>
-      <h2 class="section-title">A local team that cleans <em>like it's our own home.</em></h2>
-      <p>4You Cleaning Services was born on the South Shore with a simple idea: premium cleaning should feel personal. Not a rotating crew, not a rushed checklist, but a team that knows your home, respects your time and takes pride in every detail.</p>
-      <p>From year-round homes in Hingham and Plymouth to summer rentals in Falmouth and Chatham, we bring the same uniformed, careful team and the same high standard, every single visit.</p>
+      <h2 class="section-title">A local team that cleans <em>like it's home.</em></h2>
+      <p>Born on the South Shore, 4You brings the same careful, uniformed team and the same high standard to every home, office and rental we touch.</p>
+      <ul class="about__feats">
+        <li><span><svg class="i"><use href="#i-users"/></svg></span> Same trusted team</li>
+        <li><span><svg class="i"><use href="#i-gem"/></svg></span> Detail-obsessed</li>
+        <li><span><svg class="i"><use href="#i-message"/></svg></span> Easy to reach</li>
+        <li><span><svg class="i"><use href="#i-pin"/></svg></span> Locally rooted</li>
+      </ul>
       <div class="stats">
         <div class="stat"><strong data-count="6">0</strong><span>Specialized services</span></div>
         <div class="stat"><strong data-count="6">0</strong><span>Days a week</span></div>
@@ -682,7 +704,7 @@
     <div class="promise__copy">
       <p class="eyebrow eyebrow--light"><svg class="i"><use href="#i-shield"/></svg> The 4You Spotless Promise</p>
       <h2>If it's not spotless, <em>we come back.</em></h2>
-      <p>Your satisfaction is the whole point. If anything isn't right, let us know within 24 hours and we'll return to re-clean that area at no extra cost. No questions, no fine print.</p>
+      <p>Not perfect? Tell us within 24 hours and we re-clean it free. No fine print.</p>
     </div>
   </div>
 </section>
@@ -693,7 +715,7 @@
     <header class="section-head" data-reveal>
       <p class="eyebrow"><svg class="i"><use href="#i-pin"/></svg> Where we clean</p>
       <h2 class="section-title">From the <em>South Shore</em> to the tip of the <em>Cape</em></h2>
-      <p class="section-lead">Tap a town to find it on the map, or search yours to check availability.</p>
+      <p class="section-lead">Tap a town or search yours.</p>
     </header>
 
     <div class="areas__grid">
@@ -811,7 +833,7 @@
   <div class="container cta-final__inner" data-reveal>
     <p class="eyebrow eyebrow--light"><svg class="i"><use href="#i-sparkles"/></svg> Ready when you are</p>
     <h2>Come home to <em>spotless.</em></h2>
-    <p>Get your instant estimate today. Fast, transparent and tailored to your space.</p>
+    <p>Your instant price is one minute away.</p>
     <div class="cta-final__actions">
       <a href="#quote" class="btn btn--violet magnetic"><span>Get my instant estimate</span><svg class="i"><use href="#i-arrow"/></svg></a>
       <a href="tel:+17747441308" class="btn btn--ghost magnetic"><svg class="i"><use href="#i-phone"/></svg><span>(774) 744-1308</span></a>
